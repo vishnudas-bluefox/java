@@ -61,12 +61,13 @@ public class Stack_operation {
     public static void main(String args[]) {
 
         Scanner sc = new Scanner(System.in);
+        stack s1 = new stack();
         do{                                                   // Using do while for repeatation
 
         System.out.println("Choose option \n1.Push\n2.Pop\n3.Display\n4.Exit\nEnter the option: ");
         int option = sc.nextInt();                              // User input for read the option
 
-        stack s1 = new stack();
+        
 
         switch(option){                                         // a switch function to select the option
             case 1:
